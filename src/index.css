@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Montserrat';
+}
+
+.dropdown::-webkit-scrollbar {
+  background: white;
+  width: 10px;
+}
+
+.dropdown::-webkit-scrollbar-thumb {
+  background: #0657a3;
+}
+
+html::-webkit-scrollbar {
+  background: white;
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #0657a3;
+  border-radius: 0.75rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+  outline: none;
+}
